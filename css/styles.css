@@ -68,6 +68,7 @@
 .title-subtitle {
     font-size: 57px;
     color: #fff;
+    font-family: 'Bitter';
 }
 
 .title-subtitle-sale {
@@ -128,7 +129,7 @@
     font-weight: 300;
     font-size: 39px;
     line-height: 124.7%;
-    margin-top: 60px;
+    margin-top: 45px;
     color: #fff;
 }
 
@@ -320,13 +321,17 @@
 }
 
 .drugs {
-    background: url(../images/drugs/back.png);
+    background: url(../images/drugs/back.png) no-repeat;
     background-size: cover;
     padding: 90px 0;
 }
 
+.drugs .section-title {
+    color: #fff;
+}
+
 .accept {
-    margin-top: 90px;
+    margin-top: 117px;
 }
 
 .accept-title {
@@ -492,10 +497,6 @@
     font-weight: 300;
     font-size: 18px;
 }
-
- .drugs .container {
-     margin-top: 70px;
- }
 
 .stop-drinking {
     background: url(../images/jaredd-craig-T15gG5nA9Xk-unsplash\ 1.png);
@@ -997,6 +998,7 @@
     margin-top: 70px;
     font-size: 34px;
     font-weight: bold;
+    -webkit-appearance: none;
 }
 
 .action-sale {
