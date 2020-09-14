@@ -492,10 +492,14 @@
 }
 
 .drugs-list-desc {
+    display: flex;
     padding: 15px 10px;
     text-align: center;
     font-weight: 300;
     font-size: 18px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .stop-drinking {
